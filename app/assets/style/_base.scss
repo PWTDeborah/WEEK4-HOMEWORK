@@ -1,0 +1,53 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.5;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    &:hover{
+        opacity: 0.6;
+    }
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+    @include pad{
+      padding-left: 36px;
+      padding-right: 36px;
+    }
+    @include mobile{
+      padding-left: 13px;
+      padding-right: 14px;
+    }
+}
+.bgc-primary{
+    background-color: $main-color;
+}
+.bgc-secondary{
+    background-color: $second-color;
+}
+.fz-20{
+    font-size: 20px;
+}
+.text-white{
+    color: #FFFFFF;
+}
+.text-red-1{
+    color: #650300;
+}
+.text-red-2{
+    color: #AA0601;
+}
+.mt-8{
+    margin-top: 8px;
+}
