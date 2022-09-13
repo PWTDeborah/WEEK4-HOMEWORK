@@ -1,10 +1,11 @@
 .banner{
   background-image: url(../images/home-header.png);
   background-size: cover;
-  height: 100vh;
+  height: 787px;
   background-repeat: no-repeat;
   @include mobile{
     background-image: url(../images/home-header-sm.png);
+    height: 396px;
   }
 }
 .banner-text{
@@ -52,6 +53,9 @@
   li{
     width: 24%;
     margin-top: 24px;
+  }
+  img{
+    width: 100px;
   }
   h3{
     font-size: 24px;
@@ -148,6 +152,9 @@
   li{
     width: 23.5%;
   }
+  img{
+    width: 100%;
+  }
   @include pad{
     flex-wrap: wrap;
     margin-top: 24px;
@@ -179,11 +186,9 @@
   box-shadow: 0px 2px 6px #00000029;
   h3{
     font-weight: 500;
-    span{
-      margin-top: 8px;
-    }
+    margin-bottom: 8px;
   }
-  p{
+  time{
     font-size: 14px;
     color: #707070;
   }

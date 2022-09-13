@@ -1,8 +1,8 @@
-@import '_variables';
-@import '_reset';
-@import '_mixin';
-@import '_base';
-@import '_layout';
+@import './helper/variables';
+@import './base/reset';
+@import './helper/mixin';
+@import './base/base';
+@import './layout/layout';
 
-@import '_index';
-@import '_qna';
+@import './page/index';
+@import './page/qna';
