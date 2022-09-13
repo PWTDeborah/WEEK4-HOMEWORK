@@ -68,14 +68,6 @@ a {
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 12px; }
-  @media (max-width: 992px) {
-    .container {
-      padding-left: 36px;
-      padding-right: 36px; } }
-  @media (max-width: 768px) {
-    .container {
-      padding-left: 13px;
-      padding-right: 14px; } }
 
 .bgc-primary {
   background-color: #AA0601; }
@@ -282,11 +274,12 @@ a {
 .banner {
   background-image: url(../images/home-header.png);
   background-size: cover;
-  height: 100vh;
+  height: 787px;
   background-repeat: no-repeat; }
   @media (max-width: 768px) {
     .banner {
-      background-image: url(../images/home-header-sm.png); } }
+      background-image: url(../images/home-header-sm.png);
+      height: 396px; } }
 
 .banner-text {
   display: -webkit-box;
@@ -344,6 +337,8 @@ a {
   .feature li {
     width: 24%;
     margin-top: 24px; }
+  .feature img {
+    width: 100px; }
   .feature h3 {
     font-size: 24px;
     font-weight: 700;
@@ -447,6 +442,8 @@ a {
   margin-top: 48px; }
   .review-list li {
     width: 23.5%; }
+  .review-list img {
+    width: 100%; }
   @media (max-width: 992px) {
     .review-list {
       -ms-flex-wrap: wrap;
@@ -489,10 +486,9 @@ a {
   -webkit-box-shadow: 0px 2px 6px #00000029;
           box-shadow: 0px 2px 6px #00000029; }
   .review-card h3 {
-    font-weight: 500; }
-    .review-card h3 span {
-      margin-top: 8px; }
-  .review-card p {
+    font-weight: 500;
+    margin-bottom: 8px; }
+  .review-card time {
     font-size: 14px;
     color: #707070; }
 
